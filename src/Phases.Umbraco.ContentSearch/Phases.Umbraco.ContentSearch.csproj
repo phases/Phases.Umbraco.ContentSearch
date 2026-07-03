@@ -13,7 +13,7 @@
     <Product>Phases.Umbraco.ContentSearch</Product>
     <Title>Phases.Umbraco.ContentSearch</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageIcon>phases-umbraco-contentsearch.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Authors>midhun_roy</Authors>
