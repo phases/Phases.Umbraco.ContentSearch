@@ -1,0 +1,55 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Title": "Content Search",
+  "AuthorDetails": {
+    "Name": "Phases",
+    "Description": "Phases - We create digital efficiency - Web, Podio, Integrations",
+    "Url": "https://www.phases.io/",
+    "ImageUrl": "https://github.com/phases.png",
+    "SyncContributorsFromRepository": true,
+    "Contributors": [
+      {
+        "Name": "midhun_roy",
+        "Url": "https://github.com/MidhunRoy"
+      }
+    ]
+  },
+  "Category": "Search",
+  "Description": "Advanced content search for the Umbraco backoffice. Editors can search content by document type and property, view results in a sortable grid, export to CSV or Excel, and save searches for later.",
+  "DocumentationUrl": "https://github.com/phases/Phases.Umbraco.ContentSearch/blob/master/README.md",
+  "LicenseTypes": [ "Free" ],
+  "IssueTrackerUrl": "https://github.com/phases/Phases.Umbraco.ContentSearch/issues",
+  "PackageType": "Package",
+  "RelatedPackages": [
+    {
+      "PackageId": "",
+      "Description": ""
+    }
+  ],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/01-content-search-dashboard.PNG",
+      "Caption": "Dashboard"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/02-content-search-quick-saved-filters.PNG",
+      "Caption": "Quick Filters"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/03-content-search-search-filter-section.PNG",
+      "Caption": "Filter Area"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/04-content-search-result-section.PNG",
+      "Caption": "Search Result Area"
+    }
+  ],
+  "Tags": [ "umbraco", "search", "node", "backoffice" ],
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 17,
+      "PackageId": "Phases.Umbraco.MiniRollback"
+    }
+  ],
+  "VideoUrl": ""
+}
