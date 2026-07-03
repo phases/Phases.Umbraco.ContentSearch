@@ -13,13 +13,15 @@
     <Product>Phases.Umbraco.ContentSearch</Product>
     <Title>Phases.Umbraco.ContentSearch</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageIcon>phases-umbraco-contentsearch.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Authors>midhun_roy</Authors>
     <Company>Phases</Company>
     <PackageTags>umbraco-marketplace;umbraco;umbraco-v17</PackageTags>
     <Description>Advanced content search for the Umbraco backoffice. Editors can search content by document type and property, view results in a sortable grid, export to CSV or Excel, and save searches for later.</Description>
+    <PackageProjectUrl>https://github.com/phases/Phases.Umbraco.ContentSearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/phases/Phases.Umbraco.ContentSearch</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
