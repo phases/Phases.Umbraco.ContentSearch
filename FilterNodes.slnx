@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="sandbox/Phases.Umbraco.FilterNodes.Website/Phases.Umbraco.FilterNodes.Website.csproj" Id="e673d832-74b9-4bdd-a40c-904ec596145a" />
+  <Project Path="src/Phases.Umbraco.ContentSearch/Phases.Umbraco.ContentSearch.csproj" Id="d09c7c1d-1381-4f08-8360-b4123223f86f" />
+  <Project Path="src/Phases.Umbraco.FilterNodes/Phases.Umbraco.FilterNodes.csproj" Id="6c0dcc11-2cef-4450-81a2-3626f9c65bca" />
+  <Project Path="tests/Phases.Umbraco.FilterNodes.Tests/Phases.Umbraco.FilterNodes.Tests.csproj" />
+</Solution>

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StaticWebAssetBasePath>/</StaticWebAssetBasePath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Phases.Umbraco.FilterNodes</PackageId>
+    <Product>Phases.Umbraco.FilterNodes</Product>
+    <Title>Phases.Umbraco.FilterNodes</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Phases.Umbraco.FilterNodes.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Examine.Lucene" Version="3.7.1" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="17.2.2" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="17.2.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Common" Version="17.2.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Dont include the client folder as part of packaging nuget build -->
+    <Content Remove="Client\**" />
+
+    <!-- However make the Umbraco-package.json included for dotnet pack or nuget package and visible to the solution -->
+    <None Include="Client\public\umbraco-package.json" Pack="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>

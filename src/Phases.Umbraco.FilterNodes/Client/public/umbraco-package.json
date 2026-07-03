@@ -1,0 +1,14 @@
+{
+  "id": "Phases.Umbraco.FilterNodes",
+  "name": "Phases.Umbraco.FilterNodes",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Phases Umbraco Filter Nodes Bundle",
+      "alias": "Phases.Umbraco.FilterNodes.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/PhasesUmbracoFilterNodes/phases-umbraco-filter-nodes.js"
+    }
+  ]
+}

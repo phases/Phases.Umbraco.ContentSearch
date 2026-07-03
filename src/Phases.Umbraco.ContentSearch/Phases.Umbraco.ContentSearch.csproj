@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StaticWebAssetBasePath>/</StaticWebAssetBasePath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Phases.Umbraco.ContentSearch</PackageId>
+    <Product>Phases.Umbraco.ContentSearch</Product>
+    <Title>Phases.Umbraco.ContentSearch</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <PackageIcon>phases-umbraco-contentsearch.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>midhun_roy</Authors>
+    <Company>Phases</Company>
+    <PackageTags>umbraco-marketplace;umbraco;umbraco-v17</PackageTags>
+    <Description>Advanced content search for the Umbraco backoffice. Editors can search content by document type and property, view results in a sortable grid, export to CSV or Excel, and save searches for later.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Phases.Umbraco.ContentSearch.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="Examine.Lucene" Version="3.7.1" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="17.4.2" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="17.4.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Common" Version="17.4.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Dont include the client folder as part of packaging nuget build -->
+    <Content Remove="Client\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\**\*.map">
+      <Pack>false</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="phases-umbraco-contentsearch.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
