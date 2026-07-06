@@ -48,8 +48,7 @@
   "VersionSpecificPackageIds": [
     {
       "UmbracoMajorVersion": 17,
-      "PackageId": "Phases.Umbraco.MiniRollback"
+      "PackageId": "Phases.Umbraco.ContentSearch"
     }
-  ],
-  "VideoUrl": ""
+  ]
 }
