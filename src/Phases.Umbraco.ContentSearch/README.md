@@ -143,6 +143,16 @@ You can tune behaviour in `appsettings.json`:
 
 ---
 
+## Screenshots
+
+Dashboard
+![App Screenshot](https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/01-content-search-dashboard.PNG)
+
+Quick Filters, Filter Section and Result Section
+![App Screenshot](https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/02-content-search-quick-saved-filters.PNG)
+![App Screenshot](https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/03-content-search-search-filter-section.PNG)
+![App Screenshot](https://raw.githubusercontent.com/phases/Phases.Umbraco.ContentSearch/refs/heads/master/src/Phases.Umbraco.ContentSearch/screenshots/04-content-search-result-section.PNG)
+
 ## Support
 
 For issues, feature requests, or contributions, contact Phases or open an issue in the package repository.
